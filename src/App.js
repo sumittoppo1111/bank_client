@@ -15,13 +15,14 @@ import { useEffect, useState } from "react";
 
 
 function App() {
-  const [message, setMessage] = useState("hello");
+  const [message, setMessage] = useState("");
 
   useEffect(() => {
     fetch("https://bankserver-hao5.onrender.com")
       .then((res) => res.json())
-      .then((data) => setMessage(data.message))
+      .then((data) => setMessage(data))
       .then(console.log(message));
+      
   },[]);
  
   
@@ -29,7 +30,7 @@ function App() {
   return (
     
     <BrowserRouter>
-
+    <h1>this is client</h1>
     <NavBar/>
     <Routes>
     <Route path="/" element={<Member/>}/>
