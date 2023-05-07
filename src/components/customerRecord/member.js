@@ -6,7 +6,7 @@ import {useState,useEffect} from "react";
 const Member=()=>
 {
   
-    mem();
+    
 
     const[getpersonal,setpersonal]=useState({});
     const[getfinancial,setfinancial]=useState({});
