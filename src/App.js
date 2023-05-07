@@ -30,7 +30,7 @@ function App() {
   return (
     
     <BrowserRouter>
-    <h1>this is client</h1>
+    
     <NavBar/>
     <Routes>
     <Route path="/" element={<Member/>}/>
