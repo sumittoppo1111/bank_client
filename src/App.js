@@ -20,6 +20,7 @@ function App() {
   useEffect(() => {
     fetch("https://bankserver-hao5.onrender.com")
       .then((res) => res.json())
+      .then((res)=>console.log(res))
       .then((data) => setMessage(data))
       .then(console.log(message));
       
