@@ -128,8 +128,8 @@ const Member=()=>
     }
    
 
-    useEffect(()=>{
-    mem();
+    useEffect(async()=>{
+    await mem();
      
     console.log("reloaded");
       },[])
