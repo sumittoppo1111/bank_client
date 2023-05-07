@@ -5,6 +5,9 @@ import {useState,useEffect} from "react";
 
 const Member=()=>
 {
+  
+    mem();
+
     const[getpersonal,setpersonal]=useState({});
     const[getfinancial,setfinancial]=useState({});
     const[Nominee1,setdefault1]=useState(false);
