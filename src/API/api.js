@@ -15,7 +15,7 @@ export const addCash = async(data)=>{
 
 export const addChequeOnline =async(data)=>
 {
-   //console.log(data);
+   console.log(data);
    try{
       return await axios.post(`${URL}/online`,data);
    }
