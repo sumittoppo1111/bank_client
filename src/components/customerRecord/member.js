@@ -145,6 +145,7 @@ const Member=()=>
   
       )
       console.log("hii");
+      console.log(memc);
       console.log(memc[0]);
 
 
