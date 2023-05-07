@@ -10,9 +10,19 @@ import Account from "./components/customerRecord/Account";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Test from "./components/customerTransactin/test";
 
+import { useEffect, useState } from "react";
+
 
 
 function App() {
+  const [message, setMessage] = useState("hello");
+
+  useEffect(() => {
+    fetch("https://bankserver-hao5.onrender.com")
+      .then((res) => res.json())
+      .then((data) => setMessage(data.message))
+      .then(console.log(message));
+  },[]);
  
   
 
