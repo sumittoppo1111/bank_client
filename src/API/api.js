@@ -1,6 +1,6 @@
 
 import axios from "axios";
-const URL="https://bankclient.onrender.com";
+const URL="https://bankserver-hao5.onrender.com";
 
 export const addCash = async(data)=>{
    console.log("hii");
