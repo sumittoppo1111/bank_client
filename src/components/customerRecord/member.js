@@ -128,8 +128,9 @@ const Member=()=>
     }
    
 
-    useEffect(async()=>{
-    await mem();
+    useEffect(()=>{
+        console.log("before reloading");
+     mem();
      
     console.log("reloaded");
       },[])
