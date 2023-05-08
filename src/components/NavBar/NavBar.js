@@ -51,9 +51,9 @@ const NavBar = ()=>
                { getA.map(element=>(
                 <>
                 <option >
-                <a href={"/bankbook/"+element.companyaccount} className="link">
+                {/* <a href={"/bankbook/"+element.companyaccount} className="link"> */}
                 {element.companyaccount}
-                </a>
+                
                 </option>
                
                 </>
