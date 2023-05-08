@@ -38,15 +38,15 @@ const NavBar = ()=>
             <div><Link to="/bankbook" className="link">Bank Book</Link> </div> 
             
             
-            <Dropdown  title="Account Bank Book" id="h" name="accountno" >
+            {/* <Dropdown  title="Account Bank Book" id="h" name="accountno" >
                {getA.map(element=>(
                 <>
                 <Dropdown.Item onClick={()=>Test.set()} id="d" as={Link} to={"/bankbook/" +element.companyaccount}   >{element.companyaccount}</Dropdown.Item>
                 </>
                ))}
-            </Dropdown>
+            </Dropdown> */}
 
-            {/* <select name="accountno"  id="">
+            <select name="accountno"  id="">
             <option selected disabled>seclect your account</option>
                { getA.map(element=>(
                 <>
@@ -61,7 +61,7 @@ const NavBar = ()=>
                 
                }
                 
-            </select> */}
+            </select>
 
             
 
