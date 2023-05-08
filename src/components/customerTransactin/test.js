@@ -3,7 +3,7 @@ import {useState,useEffect} from "react";
 import { getChequeOnline ,getaccount} from "../../API/api";
 
 
-  const Test=()=>{
+ export  const Test=()=>{
     
     const[getTransaction,setTransaction]=useState([]);
     const[getAccount,setAccount]=useState([]);
