@@ -50,7 +50,7 @@ const NavBar = ()=>
             <option selected disabled>seclect your account</option>
                { getA.map(element=>(
                 <>
-                <option >
+                <option  onChange={()=>Test.set()}>
                 {/* <a href={"/bankbook/"+element.companyaccount} className="link"> */}
                 {element.companyaccount}
                 
