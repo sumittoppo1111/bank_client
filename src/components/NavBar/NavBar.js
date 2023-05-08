@@ -2,7 +2,7 @@ import { BrowserRouter,Route } from "react-router-dom";
 import { getaccount } from "../../API/api";
 import {useState,useEffect} from "react";
 import {Dropdown} from "rsuite";
-import {Test} from "../customerTransactin/test"
+import Test from "../customerTransactin/test"
 
 import { Link } from "react-router-dom";
 const NavBar = ()=>
