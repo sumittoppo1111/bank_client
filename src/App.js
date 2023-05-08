@@ -10,21 +10,21 @@ import Account from "./components/customerRecord/Account";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Test from "./components/customerTransactin/test";
 
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 
 
 function App() {
-  const [message, setMessage] = useState("");
+  // const [message, setMessage] = useState("");
 
-  useEffect(() => {
-    fetch("https://bankserver-hao5.onrender.com")
-      .then((res) => res.json())
-      .then((res)=>console.log(res))
-      .then((data) => setMessage(data))
-      .then(console.log(message));
+  // useEffect(() => {
+  //   fetch("https://bankserver-hao5.onrender.com")
+  //     .then((res) => res.json())
+  //     .then((res)=>console.log(res))
+  //     .then((data) => setMessage(data))
+  //     .then(console.log(message));
       
-  },[]);
+  // },[]);
  
   
 
