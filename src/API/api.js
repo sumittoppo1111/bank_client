@@ -1,5 +1,7 @@
 
 import axios from "axios";
+
+// const URL="http://localhost:8000";
 const URL="https://bankserver-hao5.onrender.com";
 
 export const addCash = async(data)=>{
@@ -116,6 +118,7 @@ export const account=async(data)=>
 export const getaccount=async()=>
 {
    try{
+      
       
       return await axios.get(`${URL}/getaccount`);
    }
