@@ -15,8 +15,9 @@ const NavBar = ()=>
        set();
     })
     const set=async()=>{
-        const account=await getaccount();
         console.log("option clicked");
+        const account=await getaccount();
+        
         
         setA(account.data);
     }
