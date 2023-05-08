@@ -47,11 +47,11 @@ const NavBar = ()=>
                ))}
             </Dropdown> */}
 
-            <select name="accountno"  id="">
+            <select name="accountno"  id="" onChange={()=>Test.set()}>
             <option selected disabled>seclect your account</option>
                { getA.map(element=>(
                 <>
-                <option  onChange={()=>Test.set()}>
+                <option  >
                 {/* <a href={"/bankbook/"+element.companyaccount} className="link"> */}
                 {element.companyaccount}
                 
